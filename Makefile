@@ -2,7 +2,7 @@ PWD := $(realpath .)
 .PHONY: verilator c_test asm_test isa_test _isa_test
 
 # RISC-V Cross compiler config
-RV_CROSS    := $(HOME)/opt/bip/bin/riscv64-unknown-elf-
+RV_CROSS    := riscv64-unknown-elf-
 RV_CC       := $(RV_CROSS)gcc
 RV_DMP      := $(RV_CROSS)objdump
 RV_OBJCPY   := $(RV_CROSS)objcopy
